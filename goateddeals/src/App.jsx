@@ -3,7 +3,7 @@ import { useState, useEffect, useRef, useCallback } from "react";
 /* ─── GitHub Config ──────────────────────────────────────────────── */
 const GITHUB_USER  = "Hareesh2008";
 const GITHUB_REPO  = "GOATDEALS2";
-const GITHUB_FILE  = "products.json";
+const GITHUB_FILE = "goateddeals/products.json";
 const GITHUB_BRANCH = "main";
 // ⚠️ Paste your NEW GitHub PAT token below (keep this file private / use env var for production)
 const GITHUB_TOKEN = "ghp_Yq0a3ijGRFxUl7uAJR80n1EzWbpxTx43bDmH";
