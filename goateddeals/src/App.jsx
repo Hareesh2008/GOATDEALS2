@@ -6,7 +6,7 @@ const GITHUB_REPO  = "GOATDEALS2";
 const GITHUB_FILE = "goateddeals/products.json";
 const GITHUB_BRANCH = "main";
 // ⚠️ Paste your NEW GitHub PAT token below (keep this file private / use env var for production)
-const GITHUB_TOKEN = "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";
+const GITHUB_TOKEN = import.meta.env.VITE_GITHUB_TOKEN;
 
 const GITHUB_API = `https://api.github.com/repos/${GITHUB_USER}/${GITHUB_REPO}/contents/${GITHUB_FILE}`;
 
